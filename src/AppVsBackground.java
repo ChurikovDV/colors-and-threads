@@ -23,7 +23,6 @@ public class AppVsBackground extends Applet implements Runnable {
         for (ColorBase color : colors) {
             colorThreads.add(new Thread(color));
         }
-
         app.start();
     }
 
