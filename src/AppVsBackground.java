@@ -1,8 +1,6 @@
 import java.applet.Applet;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class AppVsBackground extends Applet implements Runnable {
     public static boolean isStopped = false;
